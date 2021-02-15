@@ -1,0 +1,126 @@
+@import 'mixins';
+@import 'colors';
+
+.clients {
+    @include centering;
+    flex-direction: column;
+    height: 90vh;
+    width: 100vw;
+    background: $blue-gradient;
+    position: relative;
+
+            h2 {
+                    @include h2s;
+                    font-size: 2.5rem;
+                    line-height: 3rem;
+                    width: 50%;
+                    text-align: center;
+            }
+            .clients-imgs {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%; 
+
+                            img {
+                                    position: absolute;
+                                    background-color: white;
+                                    border-radius: 50%;
+                                    width: 80px;
+                                    height: 80px;
+                                    border: 3px solid white;
+                            }
+                            #avatar-1 {
+                                    transform: translate(180px, 200px);
+                            }
+                            #avatar-2 {
+                                    transform: translate(70px, 130px);    
+                            }
+                            #avatar-3 {
+                                    transform: translate(870px, 350px);
+                            }
+                            #avatar-4 {
+                                    transform: translate(200px, 460px);
+                            }
+                            #avatar-5 {
+                                    transform: translate(100px, 350px);
+                            }
+                            #avatar-6 {
+                                    transform: translate(860px, 130px);
+                            }
+                            #avatar-7 {
+                                    transform: translate(990px, 200px);
+                            }
+                            #avatar-2r {
+                                    transform: translate(750px, 520px);
+                            }
+
+            }
+            .slides-container {
+                    @include centering;
+                    width: 80%;
+                    height: 400px;
+
+                    .slides-wrapper {
+                            @include centering;
+                            flex-direction: column;
+                            position: relative;
+                            width: 100%;
+                            height: 100%;
+
+
+                            .slide {
+                                    @include centering;
+                                    flex-direction: column;
+                                    width: 100%;
+                                    height: 100%;
+                                    position: absolute;
+
+                                            .review-text {
+                                                    @include centering;
+
+                                                            p {
+                                                                    @include ps;
+                                                                    width: 80%;
+                                                                    font-size: 1.2rem;
+                                                                    font-family: 'Montserrat', sans-serif;
+                                                                    text-align: center;
+                                                                    line-height: 2rem;
+                                                                    font-weight: 100;
+                                                            }
+                                            }
+                                            .about-client {
+                                                    @include centering;
+                                                    height: 30%;
+                                                    flex-direction: column;     
+                                                    color: white;
+                                                    font-family: sans-serif;
+                                                    transform: translateY(30PX);
+
+                                                            .name {
+                                                                    font-size: 1.5rem;
+                                                                    color: $pink;
+                                                            }
+                                                            .title {
+                                                                    transform: translateY(5px);
+                                                            }
+                                                            .stars {
+                                                                    @include centering;
+                                                                    transform: translateY(20px);
+                                                                            svg {
+                                                                                    fill: yellow;
+                                                                            }
+                                                            }
+                                            }
+                            }
+                    }
+            }
+            .quote {
+                    position: absolute;
+                            svg {
+                                    width: 400px;
+                                    height: 400px;
+                                    color: white;
+                                    opacity: 0.1;
+                            }
+            }
+}

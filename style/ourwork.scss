@@ -1,0 +1,142 @@
+@import 'mixins';
+@import 'colors';
+
+.our-work {
+    @include centering;
+    flex-direction: column;
+    height: 200vh;
+    width: 100vw;
+    background-color: rebeccapurple;
+    
+
+        .text-content {
+            @include centering;
+            flex-direction: column;
+            width: 50%;
+            text-align: center;
+
+                .p {
+                    @include ps;
+                    width: 70%;
+                    color: $gray;
+                    font-family: 'Montserrat Semibold', sans-serif;
+                }
+                h2 {    
+                    @include h2s;
+                    font-size: 2.5rem;
+                    line-height: 3rem;
+                    font-weight: 600;
+                    width: 90%;
+                    color: $dark-gray;
+                    font-family: 'Montserrat Semibold', Times, serif;
+
+                        #design {
+                            color: $light-blue;
+                        }
+                }
+                .p2 {
+                    @include ps;
+                    width: 100%;
+                    color: $gray;
+                    line-height: 2rem;
+                }
+        }
+
+        .portfolio-container {
+            @include centering;
+            width: 100vw;
+            flex-direction: column;
+
+                .categories {
+                    @include centering;
+                    width: 50%;
+
+                        ul {
+                            @include centering;
+                            justify-content: space-evenly;
+                            width: 100%;
+                            list-style: none;
+
+                                li, span {
+                                    @include ps;
+                                    font-weight: 500;
+                                    color: $dark-gray;
+                                    font-size: 0.8rem;
+                                    line-height: 0.8rem;
+                                    font-family: 'Montserrat SemiBold', sans-serif;
+                                    pointer-events: none;
+                                    cursor: default;
+                                }
+
+                                li {
+                                    pointer-events: all;
+                                    cursor: pointer;
+                                }
+                        }
+                }
+
+                .portfolio {
+                    @include centering;
+                    flex-direction: column;
+                    background-color: $light-blue;
+
+                        .upper-container {
+                            @include centering;
+                            
+
+                                .ul-container {
+                                    background-color: sienna;
+                                    @include centering;
+
+                                        .left {
+                                            img {
+                                                display: block;
+                                            }
+                                        }
+                                        .right {
+
+                                            img {
+                                                display: block;
+                                            }
+                                            
+                                        }
+                                }
+                                .ur-container {
+                                    background-color: orangered;
+                                    display: inline-block;
+
+                                        .whole {
+                                            
+                                        }
+                                }
+                        }
+                        .lower-container {
+                            @include centering;
+
+                                .ll-container {
+                                    @include centering;
+                                    background-color: pink;
+                                    display: inline-block;
+
+                                        .whole {
+                                            
+                                        }
+                                }
+                                .lr-container {
+                                    background-color: coral;
+                                    display: inline-block; 
+
+                                        .upper {
+                                                display: block;        
+                                        }
+                                        .lower {
+                                            @include centering;
+                                            img {
+                                                display: inline-block;
+                                            }
+                                        }
+                                }
+                        }
+                }
+        }
+}

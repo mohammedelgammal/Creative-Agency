@@ -1,0 +1,13 @@
+.menu-logo
+    .hamburger-menu 
+        .top-stick.stick
+        .mid-stick.stick
+        .bot-stick.stick
+    .logo 
+        img(src="imgs/logo.png" alt="logo")
+.navigation
+    ul
+        include variables 
+        each item in menuArray
+            li= item
+        #quote Get A Quote

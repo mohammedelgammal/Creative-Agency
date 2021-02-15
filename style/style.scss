@@ -1,0 +1,43 @@
+@import 'colors';
+@import 'mixins';
+@import 'header';
+@import 'main';
+@import 'aboutus';
+@import 'ourwork';
+@import 'clients';
+@import 'ourblog';
+@import 'location';
+@import 'contact';
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat Regular', Times, serif;
+}
+
+footer {
+        @include centering;
+        width: 100vw;
+        height: 200px;
+
+                .social-media {
+                        @include centering;
+                        width: 50%;
+                        height: 100%;
+                        justify-content: space-evenly;
+
+                                svg, img {
+                                        width: 26px;
+                                        height: 26px;
+                                        fill: $dark-gray;
+                                }
+                }
+
+                .copyrights {
+                        @include centering;
+                        width: 50%;
+                        height: 100%;
+                }
+}
+

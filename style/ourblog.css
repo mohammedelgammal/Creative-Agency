@@ -1,0 +1,185 @@
+.our-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 130vh;
+}
+
+.our-blog .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  text-align: center;
+}
+
+.our-blog .text-content span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 70%;
+  color: #5a5a5a;
+  font-family: 'Montserrat Semibold', sans-serif;
+}
+
+.our-blog .text-content h2, .our-blog .text-content h2 #blog {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  width: 90%;
+  color: #292929;
+  font-family: 'Montserrat Semibold', Times, serif;
+}
+
+.our-blog .text-content h2 #blog {
+  color: #00a5f1;
+}
+
+.our-blog .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+.our-blog .cards-container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+  height: 500px;
+  margin: 0px 30px;
+}
+
+.our-blog .cards-container .card .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-blog .cards-container .card .img-container img {
+  border-radius: 15px 15px 0px 0px;
+  width: 300px;
+  height: 200px;
+}
+
+.our-blog .cards-container .card .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: left;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-blog .cards-container .card .text-content #date {
+  width: 80%;
+  color: #00a5f1;
+}
+
+.our-blog .cards-container .card .text-content #title {
+  width: 80%;
+  font-size: 1.5rem;
+  color: #292929;
+}
+
+.our-blog .cards-container .card .text-content #content {
+  width: 80%;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: #5a5a5a;
+}
+
+.our-blog .cards-container .card .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+}
+
+.our-blog .cards-container .card .profile img {
+  background-color: #00a5f1;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.our-blog .cards-container .card .profile span {
+  font-size: 0.9rem;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+/*# sourceMappingURL=ourblog.css.map */

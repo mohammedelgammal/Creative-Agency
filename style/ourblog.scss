@@ -1,0 +1,101 @@
+@import 'mixins';
+@import 'colors';
+
+.our-blog {
+    @include centering;
+    flex-direction: column;
+    width: 100vw;
+    height: 130vh;
+
+            .text-content {
+                    @include centering;
+                    flex-direction: column;
+                    width: 60%;
+                    text-align: center;
+
+                            span {
+                                    @include ps;
+                                    width: 70%;
+                                    color: $gray;
+                                    font-family: 'Montserrat Semibold', sans-serif;
+                            }
+                            h2 {
+                                    @include h2s;
+                                    font-size: 2.5rem;
+                                    line-height: 3rem;
+                                    font-weight: 600;
+                                    width: 90%;
+                                    color: $dark-gray;
+                                    font-family: 'Montserrat Semibold', Times, serif;
+
+                                            #blog {
+                                                    @extend h2;
+                                                    color: $light-blue;
+                                            }
+                            }
+                            
+            }
+
+            .cards-container {
+                    @include centering;
+                    width: 100vw;
+                    transform: translateY(50px);
+
+                            .card {
+                                    @include centering;
+                                    flex-direction: column;
+                                    justify-content: space-between;
+                                    width: 300px;
+                                    height: 500px;
+                                    margin: 0px 30px;
+
+                                            .img-container {
+                                                    @include centering;
+                                                            img {
+                                                                    border-radius: 15px 15px 0px 0px;
+                                                                    width: 300px;
+                                                                    height: 200px;
+                                                            }
+                                            }
+                                            .text-content {
+                                                    @include centering;
+                                                    text-align: left;
+                                                    width: 100%;
+                                                    flex-direction: column;
+
+
+                                                            #date {
+                                                                    width: 80%;
+                                                                    color: $light-blue;
+                                                            }
+                                                            #title {
+                                                                    width: 80%;
+                                                                    font-size: 1.5rem;
+                                                                    color: $dark-gray;
+                                                            }
+                                                            #content {
+                                                                    width: 80%;
+                                                                    font-family: sans-serif;
+                                                                    font-weight: 100;
+                                                                    color: $gray;
+                                                            }
+                                            }
+                                            .profile {
+                                                    @include centering;
+                                                    justify-content: flex-start;
+                                                    width: 80%;
+
+                                                            img {
+                                                                    background-color: $light-blue;
+                                                                    border-radius: 50%;
+                                                                    width: 50px;
+                                                                    height: 50px;
+                                                            }
+                                                            span {
+                                                                    font-size: 0.9rem;
+                                                                    transform: translateX(20px);
+                                                            }
+                                            }
+                            }
+            }
+}

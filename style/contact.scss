@@ -1,0 +1,149 @@
+@import 'colors';
+@import 'mixins';
+
+.contact-us {
+    @include centering;
+    height: 150vh;
+
+            .contact-form {
+                    @include centering;
+                    height: 60%;
+                    width: 60%;
+
+                            form {
+                                    @include centering;
+                                    width: 90%;    
+                                    height: 100%;
+                                    flex-direction: column;
+
+                                            .header-container {
+                                                    width: 100%;
+
+                                                            h2 {
+                                                                    width: 100%;
+                                                                    @include h2s;
+                                                                    font-size: 3rem;
+                                                                    color: $gray;
+                                                                    font-family: 'Montserrat', sans-serif;
+                                                                    font-weight: 600;
+                                                                    transform: translateX(70px)
+                                                            }
+                                            }
+
+                                            .form-fields {
+                                                    @include centering;
+                                                    width: 100%;
+                                                    height: auto;
+
+                                                            .nes-container {
+                                                                    @include centering;
+                                                                    align-items: flex-end;
+                                                                    width: 50%;
+                                                                    height: 100%;
+                                                                    flex-direction: column;
+                                                                    transform: translateX(-20px);
+
+                                                                            input {
+                                                                                    background-color: transparent;
+                                                                                    width: 70%;
+                                                                                    height: 50px;
+                                                                                    margin: 10px 0px; 
+                                                                                    border: 1px solid $gray;
+                                                                                    border-radius: 8px;
+                                                                                    padding-left: 10px;
+                                                                                    outline: none;
+                                                                                    color: $gray;
+                                                                            }
+                                                            }
+                                                            
+                                                            .message-container {
+                                                                    @include centering;
+                                                                    width: 50%;
+                                                                    height: 100%;
+
+                                                                            textarea {
+                                                                                    background-color: transparent;
+                                                                                    padding: 20px;
+                                                                                    height: 190px; 
+                                                                                    border-radius: 10px; 
+                                                                                    resize: none;
+                                                                                    outline: none;
+                                                                                    margin: 20px 0px;
+                                                                            }
+                                                            }
+                                            }
+                                            .button-container {
+                                                    @include centering;
+                                                    height: auto;
+                                                    transform: translateY(20px);
+                                                    width: 100%;    
+
+                                                            input {
+                                                                    @include buttons;
+                                                                    background-image: $blue-gradient;
+                                                                    width: 525px;
+                                                                    transform: translateX(27px);
+                                                            }
+                                            }
+                            }
+            }
+
+            .our-location {
+                    @include centering;
+                    flex-direction: column;
+                    height: 60%;
+                    width: 40%;
+                    transform: translateY(-20px);
+
+
+                            .text-container {
+                                    @include centering;
+                                    align-items: flex-start;
+                                    width: 100%;
+                                    flex-direction: column;
+                                    padding-left: 35px;
+
+                                            h2 {
+                                                    @include h2s;
+                                                    font-size: 3rem;
+                                                    color: $gray;
+                                                    font-family: 'Montserrat', sans-serif;
+                                                    font-weight: 600;
+                                            }
+
+                                            p {
+                                                    color: $gray;
+                                                    transform: translateY(-15px);
+                                            }
+                            }
+                            .contact-info {
+                                    @include centering;
+                                    flex-direction: column;
+                                    justify-content: space-evenly;
+                                    height: 30%;
+                                    width: 100%;
+
+                                            .address {
+                                                    @include centering;
+                                                    justify-content: flex-start;    
+                                                    width: 100%;
+
+                                                            svg {
+                                                                    transform: translateX(30px);
+                                                                    fill: $dark-blue;
+                                                            }
+                                                    
+                                                            span {
+                                                                    margin-left: 10px;
+                                                                    transform: translateX(40px);
+                                                            }
+                                            }
+                                            .phone {
+                                                    @extend .address;
+                                            }
+                                            .email {
+                                                    @extend .address;
+                                            }
+                            }
+            }
+}

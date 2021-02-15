@@ -1,0 +1,681 @@
+.about-us .values-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+
+.about-us .values-container .upper-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 70%;
+}
+
+.about-us .values-container .upper-content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 80px;
+  text-align: left;
+  width: 53%;
+  height: 100%;
+}
+
+.about-us .values-container .upper-content .content .p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 70%;
+  color: #5a5a5a;
+  font-family: 'Montserrat Semibold', sans-serif;
+}
+
+.about-us .values-container .upper-content .content h2 {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  width: 90%;
+  color: #292929;
+  font-family: 'Montserrat Semibold', Times, serif;
+}
+
+.about-us .values-container .upper-content .content h2 #design {
+  color: #00a5f1;
+}
+
+.about-us .values-container .upper-content .content .p2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #5a5a5a;
+  line-height: 2rem;
+}
+
+.about-us .values-container .upper-content .content button {
+  height: 50px;
+  width: 145px;
+  color: white;
+  background-color: #00a5f1;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 30%;
+}
+
+.about-us .values-container .upper-content .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 47%;
+  height: 100%;
+}
+
+.about-us .values-container .upper-content .img-container img {
+  width: 544px;
+  height: 402px;
+}
+
+.about-us .values-container .lower-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 30%;
+}
+
+.about-us .values-container .lower-content .value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about-us .values-container .lower-content .value .value-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.about-us .values-container .lower-content .value .value-icon svg {
+  fill: white;
+  width: 40px;
+  height: 40px;
+}
+
+.about-us .values-container .lower-content .value #val1 {
+  background-color: #00a5f1;
+}
+
+.about-us .values-container .lower-content .value #val2 {
+  background-color: #41516a;
+}
+
+.about-us .values-container .lower-content .value #val3 {
+  background-color: #a14bf0;
+}
+
+.about-us .values-container .lower-content .value #val4 {
+  background-color: #fd1eb3;
+}
+
+.about-us .values-container .lower-content .value .text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 70%;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+.about-us .values-container .lower-content .value .text p {
+  font-family: 'Montserrat SemiBold', sans-serif;
+}
+
+.about-us .our-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 70vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(#a14bf0), to(#00a5f1));
+  background-image: linear-gradient(to right, #a14bf0, #00a5f1);
+}
+
+.about-us .our-number .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  height: 100%;
+}
+
+.about-us .our-number .img-container img {
+  width: 533px;
+  height: 333px;
+}
+
+.about-us .our-number .left-hand-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.about-us .our-number .left-hand-content .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 90%;
+}
+
+.about-us .our-number .left-hand-content .text-content .p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Montserrat Semibold', sans-serif;
+}
+
+.about-us .our-number .left-hand-content .text-content h2 {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  font-family: 'Montserrat Semibold', Times, serif;
+}
+
+.about-us .our-number .left-hand-content .text-content h2 #idea {
+  color: #fd1eb3;
+}
+
+.about-us .our-number .left-hand-content .text-content .p2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 2rem;
+}
+
+.about-us .our-number .left-hand-content .numbers-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 90%;
+}
+
+.about-us .our-number .left-hand-content .numbers-container .number-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.about-us .our-number .left-hand-content .numbers-container .number-wrapper svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  margin-bottom: 30px;
+}
+
+.about-us .our-number .left-hand-content .numbers-container .number-wrapper .number {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.about-us .our-number .left-hand-content .numbers-container .number-wrapper P {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  margin: 0px;
+  line-height: 30px;
+}
+
+.about-us .our-staff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-us .our-staff .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  height: 40%;
+  text-align: center;
+}
+
+.about-us .our-staff .text-container .p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Montserrat Semibold', sans-serif;
+  color: #5a5a5a;
+}
+
+.about-us .our-staff .text-container h2 {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  font-family: 'Montserrat Semibold', Times, serif;
+  color: #292929;
+}
+
+.about-us .our-staff .text-container h2 #ideal {
+  color: #00a5f1;
+}
+
+.about-us .our-staff .text-container .p2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  color: #5a5a5a;
+}
+
+.about-us .our-staff .staff-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: 60%;
+}
+
+.about-us .our-staff .staff-container .staff-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+}
+
+.about-us .our-staff .staff-container .staff-card .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-us .our-staff .staff-container .staff-card .img-container img {
+  width: 250px;
+  height: 250px;
+}
+
+.about-us .our-staff .staff-container .staff-card .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  line-height: 0;
+}
+
+.about-us .our-staff .staff-container .staff-card .text-container .p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  color: #292929;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 80px 0px 20px 0px;
+}
+
+.about-us .our-staff .staff-container .staff-card .text-container .p2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+
+.about-us .our-staff .staff-container .staff-card .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.about-us .our-staff .staff-container .staff-card .social-media div {
+  margin: 0px 10px;
+}
+
+.about-us .our-staff .staff-container .staff-card .social-media div svg {
+  width: 15px;
+  height: 15px;
+}
+
+.about-us .our-solutions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60vh;
+  background-color: #f8f9fa;
+}
+
+.about-us .our-solutions .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transform: translate(80px, -40px);
+          transform: translate(80px, -40px);
+  width: 50%;
+  height: 100%;
+}
+
+.about-us .our-solutions .text-content .p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  color: #292929;
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 80px 0px 20px 0px;
+}
+
+.about-us .our-solutions .text-content h2 {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2.7rem;
+  line-height: 3rem;
+  color: #292929;
+}
+
+.about-us .our-solutions .text-content h2 #robust {
+  color: #fd1eb3;
+}
+
+.about-us .our-solutions .text-content .p2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 90%;
+  font-size: 0.9rem;
+  color: #5a5a5a;
+}
+
+.about-us .our-solutions .text-content button {
+  height: 50px;
+  width: 145px;
+  color: white;
+  background-color: #00a5f1;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.about-us .our-solutions .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.about-us .our-solutions .img-container img {
+  width: 533px;
+  height: 333px;
+}
+/*# sourceMappingURL=aboutus.css.map */

@@ -1,0 +1,248 @@
+.our-work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 200vh;
+  width: 100vw;
+  background-color: rebeccapurple;
+}
+
+.our-work .text-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  text-align: center;
+}
+
+.our-work .text-content .p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 70%;
+  color: #5a5a5a;
+  font-family: 'Montserrat Semibold', sans-serif;
+}
+
+.our-work .text-content h2 {
+  font-family: sans-serif;
+  font-size: 4.5rem;
+  font-weight: 750;
+  color: white;
+  line-height: 5rem;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  width: 90%;
+  color: #292929;
+  font-family: 'Montserrat Semibold', Times, serif;
+}
+
+.our-work .text-content h2 #design {
+  color: #00a5f1;
+}
+
+.our-work .text-content .p2 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  width: 100%;
+  color: #5a5a5a;
+  line-height: 2rem;
+}
+
+.our-work .portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.our-work .portfolio-container .categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+}
+
+.our-work .portfolio-container .categories ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  list-style: none;
+}
+
+.our-work .portfolio-container .categories ul li, .our-work .portfolio-container .categories ul span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #292929;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-family: 'Montserrat SemiBold', sans-serif;
+  pointer-events: none;
+  cursor: default;
+}
+
+.our-work .portfolio-container .categories ul li {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.our-work .portfolio-container .portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #00a5f1;
+}
+
+.our-work .portfolio-container .portfolio .upper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-work .portfolio-container .portfolio .upper-container .ul-container {
+  background-color: sienna;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-work .portfolio-container .portfolio .upper-container .ul-container .left img {
+  display: block;
+}
+
+.our-work .portfolio-container .portfolio .upper-container .ul-container .right img {
+  display: block;
+}
+
+.our-work .portfolio-container .portfolio .upper-container .ur-container {
+  background-color: orangered;
+  display: inline-block;
+}
+
+.our-work .portfolio-container .portfolio .lower-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-work .portfolio-container .portfolio .lower-container .ll-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: pink;
+  display: inline-block;
+}
+
+.our-work .portfolio-container .portfolio .lower-container .lr-container {
+  background-color: coral;
+  display: inline-block;
+}
+
+.our-work .portfolio-container .portfolio .lower-container .lr-container .upper {
+  display: block;
+}
+
+.our-work .portfolio-container .portfolio .lower-container .lr-container .lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our-work .portfolio-container .portfolio .lower-container .lr-container .lower img {
+  display: inline-block;
+}
+/*# sourceMappingURL=ourwork.css.map */
